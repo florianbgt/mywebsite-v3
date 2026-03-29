@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Florian Bigot — Founding engineer. Amsterdam.">
+  <meta property="og:title" content="Florian Bigot">
+  <meta property="og:description" content="Founding engineer. Amsterdam.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://florianbgt.com">
+  <title>Florian Bigot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwYZ8UA3.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3pQPwlBFgsAXHNk.woff2">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:opsz,wght@14..32,400;14..32,900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:opsz,wght@14..32,400;14..32,900&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:opsz,wght@14..32,400;14..32,900&display=swap"></noscript>
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    ::selection {
+      background: #ff0;
+      color: #000;
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #000;
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site {
+      max-width: 640px;
+      width: 100%;
+      border: 3px solid #000;
+    }
+
+    .top-bar {
+      background: #000;
+      color: #777;
+      padding: 10px 20px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .main {
+      padding: 48px 24px;
+    }
+
+    .name {
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+      font-size: clamp(48px, 10vw, 72px);
+      line-height: 0.92;
+      letter-spacing: -0.03em;
+    }
+
+    .tagline {
+      margin-top: 20px;
+      color: #333;
+      font-size: 13px;
+    }
+
+    .links {
+      margin-top: 32px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      border: 2px solid #000;
+      padding: 6px 16px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .links a:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .bottom-bar {
+      background: #000;
+      color: #777;
+      padding: 10px 20px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(10px); }
+    }
+
+    .animate {
+      animation: fade-in 0.5s ease-out both;
+    }
+
+    .animate-delay {
+      animation: fade-in 0.5s ease-out 0.08s both;
+    }
+
+    .animate-delay-2 {
+      animation: fade-in 0.5s ease-out 0.16s both;
+    }
+
+    @media (max-width: 500px) {
+      .site {
+        border-left: none;
+        border-right: none;
+      }
+
+      body {
+        padding: 0;
+        align-items: flex-start;
+      }
+
+      .main {
+        padding: 36px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar">
+      <span>Florian Bigot</span>
+      <span>2025</span>
+    </div>
+    <main class="main">
+      <h1 class="name animate">Florian<br>Bigot</h1>
+      <p class="tagline animate-delay">Founding engineer. Amsterdam.</p>
+      <div class="links animate-delay-2">
+        <a href="https://github.com/florianbgt" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/florianbgt" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:florian.bigot321@gmail.com">florian.bigot321@gmail.com</a>
+      </div>
+    </main>
+    <div class="bottom-bar">Amsterdam, NL</div>
+  </div>
+</body>
+</html>
